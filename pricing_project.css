@@ -1,0 +1,200 @@
+styles.css * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-bottom: 1px solid #808080;
+  font-size: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-ul {
+  display: flex;
+  padding-left: 0;
+}
+
+.header-ul > li {
+  padding: 0 7px;
+}
+
+.header-ul > li > a {
+  color: #000;
+}
+
+#sign-up {
+  color: #017bfe;
+  border: 1px solid #017bfe;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pricing {
+  text-align: center;
+  width: 50vw;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 70px;
+  padding-bottom: 20px;
+}
+
+.pricing h1 {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.pricing > p {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  color: #212529;
+  font-weight: 300;
+}
+
+.container > box1 > p {
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px auto;
+  width: 70%;
+  margin-bottom: 45px;
+}
+.box1 {
+  width: 27%;
+  text-align: center;
+  border: 1px solid #dfdfdf;
+  justify-content: left;
+  border-radius: 5px;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+}
+
+.box2 {
+  width: 27%;
+  border: 1px solid #dfdfdf;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.box3 {
+  width: 27%;
+  border: 1px solid #dfdfdf;
+  text-align: center;
+  justify-content: right;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+div ul li {
+  margin-left: -45px;
+  padding: 3px;
+}
+
+div p {
+  font-size: 20px;
+}
+
+h3 {
+  border-bottom: 1px solid #dfdfdf;
+  background-color: #f7f7f7;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 10px;
+  margin: 0;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+div ul {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.push_1 {
+  text-decoration: none;
+  border: 1px solid #017bfe;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 60px;
+}
+
+.push_1:hover {
+  background-color: #017bfe;
+  color: #ffffff;
+}
+
+.push_2-3 {
+  text-decoration: none;
+  border: 1px solid #017bfe;
+  background-color: #017bfe;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 65px;
+}
+
+.push_2-3:hover {
+  background-color: #0168d9;
+}
+
+.last-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  padding-top: 30px;
+}
+
+#bootstrap {
+  font-size: 30px;
+  color: #563d7c;
+}
+
+.box {
+  text-align: left;
+  width: 17%;
+  margin: 10px 15px;
+}
+
+div ul li a {
+  text-decoration: none;
+  color: #6c757d;
+  font-size: 18px;
+  padding: 5px;
+}
+
+div ul li a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  width: 64%;
+  color: #dee2e6;
+}
